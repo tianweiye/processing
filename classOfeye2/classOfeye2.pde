@@ -16,6 +16,7 @@ void setup(){
   my_ = new PUPIL(r,l0,l3+1);
   eye=new EYE(my_,r,l0,l1,l2,l3);
   for(int i=0;i<n;i++)eye.set(i,50-width/2,50-height/2,random(300,400),col[i%5],"2.PNG");
+  //eye.set(i,0,0,100,col[i%5],"2.PNG");//initial 原点
 }
 
 
